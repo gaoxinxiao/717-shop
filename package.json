@@ -1,0 +1,47 @@
+{
+  "name": "717item",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --progress --color --profile  --config config/webpack.dev.js ",
+    "build": "cross-env NODE_ENV=production webpack --progress --color --profile --config config/webpack.build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "react-native": "^0.54.2",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "cross-env": "^5.1.4",
+    "css-loader": "^0.28.10",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.0",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "mock": "^0.1.1",
+    "mockjs": "^1.0.1-beta3",
+    "prop-types": "^15.6.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-toastify": "^3.4.2",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.16.0",
+    "style-loader": "^0.20.3",
+    "swiper": "^4.1.6",
+    "url-loader": "^1.0.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}

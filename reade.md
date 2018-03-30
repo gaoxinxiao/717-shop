@@ -1,6 +1,6 @@
 
 
- 1.717商城电商页面
+ 1.717商城
  
  2.用到的技术:主要有react,wabpack,react-router,redux,rudex-saga,react-router-dom
 
